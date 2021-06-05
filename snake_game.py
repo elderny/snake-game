@@ -17,7 +17,7 @@ body_touch = False
 out_boundries = False
 def bg_music():
     mixer.init()
-    mixer.music.load("C:\\Users\\Elderny\\Desktop\\Snake_game\\eyes.wav")
+    mixer.music.load("background.wav")
     mixer.music.set_volume(0.5)
     mixer.music.play(-1)
 
